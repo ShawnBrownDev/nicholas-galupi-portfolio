@@ -30,12 +30,12 @@ export default function About() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-6">
-            <span className="">SPACE</span>{' '}
+            <span className="neon-text">SPACE</span>{' '}
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               EXPLORER
             </span>
           </h2>
-          <p className="font-rajdhani text-xl text-white max-w-2xl mx-auto">
+          <p className="font-rajdhani text-xl text-gray-400 max-w-2xl mx-auto">
             Navigating the cosmic web of technology for over 3+ years
           </p>
         </div>
@@ -47,21 +47,21 @@ export default function About() {
             <div className="holographic-panel p-8">
               <div className="flex items-center mb-6">
                 <User className="w-8 h-8 text-cyan-400 mr-3" />
-                <h3 className="font-orbitron text-2xl font-bold">Mission Profile</h3>
+                <h3 className="font-orbitron text-2xl font-bold neon-text">Mission Profile</h3>
               </div>
               
-              <div className="space-y-4 font-rajdhani text-white-300 leading-relaxed">
+              <div className="space-y-4 font-rajdhani text-gray-300 leading-relaxed">
                 <p>
-                  Greetings, fellow space traveler! I'm a passionate full-stack developer 
+                  Greetings, fellow space traveler! I&apos;m a passionate full-stack developer 
                   who loves crafting digital experiences that feel like journeys through the cosmos.
                 </p>
                 <p>
                   With expertise spanning frontend galaxies to backend nebulae, I specialize 
-                  in building scalable applications that push the boundaries of what's possible 
+                  in building scalable applications that push the boundaries of what&apos;s possible 
                   in the digital universe.
                 </p>
                 <p>
-                  When I'm not coding, you'll find me exploring new technologies, contributing 
+                  When I&apos;m not coding, you&apos;ll find me exploring new technologies, contributing 
                   to open source projects, or stargazing for inspiration for my next creation.
                 </p>
               </div>
@@ -69,11 +69,11 @@ export default function About() {
               {/* Stats */}
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="text-center">
-                  <div className="font-orbitron text-3xl font-bold ">50+</div>
+                  <div className="font-orbitron text-3xl font-bold neon-text">50+</div>
                   <div className="font-rajdhani text-gray-400">Projects</div>
                 </div>
                 <div className="text-center">
-                  <div className="font-orbitron text-3xl font-bold ">100%</div>
+                  <div className="font-orbitron text-3xl font-bold neon-text">100%</div>
                   <div className="font-rajdhani text-gray-400">Success Rate</div>
                 </div>
               </div>
@@ -193,7 +193,7 @@ export default function About() {
                 Ready for Collaboration?
               </h3>
               <p className="font-rajdhani text-gray-400 mb-6">
-                Let's create something extraordinary together
+                Let&apos;s create something extraordinary together
               </p>
               <button className="cyber-button px-6 py-3 rounded-lg font-rajdhani font-bold">
                 Initiate Contact

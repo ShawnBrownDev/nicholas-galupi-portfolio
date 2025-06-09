@@ -58,7 +58,7 @@ export default function Contact() {
             </span>
           </h2>
           <p className="font-rajdhani text-xl text-gray-400 max-w-2xl mx-auto">
-            Send a signal across the digital cosmos. Let's connect and build something amazing together.
+            Send a signal across the digital cosmos. Let&apos;s connect and build something amazing together.
           </p>
         </div>
 
@@ -128,7 +128,7 @@ export default function Contact() {
                   value={formData.subject}
                   onChange={handleChange}
                   className="w-full p-4 bg-black/50 border border-pink-400/30 rounded-lg focus:border-pink-400 focus:ring-2 focus:ring-pink-400/20 outline-none transition-all duration-300 font-rajdhani text-white placeholder-gray-500"
-                  placeholder="What's your project about?"
+                  placeholder="What&apos;s your project about?"
                   required
                 />
               </div>
