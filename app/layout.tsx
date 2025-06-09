@@ -15,7 +15,7 @@ const rajdhani = Rajdhani({
 });
 
 export const metadata: Metadata = {
-  title: 'Space Portfolio | Digital Explorer',
+  title: 'Nicholas Galupi Porfolio',
   description: 'Exploring digital galaxies through code & creativity',
 };
 
