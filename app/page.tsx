@@ -29,7 +29,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <p className="font-rajdhani text-gray-400">
-              © 2024 Space Portfolio. Crafted with 💜 in the digital cosmos.
+              © 2024 Space Portfolio. Crafted By <a href="https://portfolio-xi-lyart-1xxet5hw0h.vercel.app/" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline">Shawn Brown</a>.
             </p>
           </div>
         </div>
