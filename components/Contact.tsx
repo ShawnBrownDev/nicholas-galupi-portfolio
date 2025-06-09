@@ -35,7 +35,7 @@ export default function Contact() {
   };
 
   const contactInfo = [
-    { icon: Mail, label: 'Email', value: 'contact@spacedev.io', href: 'mailto:contact@spacedev.io' },
+    { icon: Mail, label: 'Email', value: 'contact@spacedev.io', href: 'mailto:contact@dev.io' },
     { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
   ];
 

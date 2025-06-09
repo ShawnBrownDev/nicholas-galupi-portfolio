@@ -3,15 +3,8 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import { ExternalLink, Github, Zap, Database, Globe } from 'lucide-react';
-import { Project, projects } from '@/lib/projects';
+import { Project, projects, categories, Category } from '@/lib/projects';
 
-const categories = [
-  { id: 'all', name: 'All Projects', icon: Globe },
-  { id: 'web', name: 'Web Apps', icon: Globe },
-  { id: 'ai', name: 'AI/ML', icon: Zap },
-  { id: 'backend', name: 'Backend', icon: Database },
-  { id: 'blockchain', name: 'Blockchain', icon: Database }
-];
 
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState('all');
@@ -27,7 +20,7 @@ export default function Projects() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="font-orbitron text-4xl md:text-5xl font-bold mb-6">
-            <span className="">My</span>{' '}
+            <span className="neon-text">My</span>{' '}
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               Projects
             </span>
@@ -39,7 +32,7 @@ export default function Projects() {
 
         {/* Category Filter */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category) => {
+          {categories.map((category: Category) => {
             const Icon = category.icon;
             return (
               <button

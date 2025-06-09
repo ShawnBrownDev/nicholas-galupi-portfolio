@@ -1,3 +1,19 @@
+import { Globe, Zap, Database } from 'lucide-react';
+
+export interface Category {
+  id: string;
+  name: string;
+  icon: typeof Globe | typeof Zap | typeof Database;
+}
+
+export const categories: Category[] = [
+  { id: 'all', name: 'All Projects', icon: Globe },
+  { id: 'web', name: 'Web Apps', icon: Globe },
+  { id: 'ai', name: 'AI/ML', icon: Zap },
+  { id: 'backend', name: 'Backend', icon: Database },
+  { id: 'blockchain', name: 'Blockchain', icon: Database }
+];
+
 export interface Project {
   id: number;
   title: string;

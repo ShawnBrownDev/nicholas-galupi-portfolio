@@ -154,7 +154,7 @@ export default function About() {
                       }`}>
                         <div className="flex items-center space-x-3 mb-2">
                           <span className={`font-orbitron font-bold text-lg ${
-                            isActive ? 'neon-text' : 'text-gray-400'
+                            isActive ? '' : 'text-gray-400'
                           }`}>
                             {item.year}
                           </span>

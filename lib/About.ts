@@ -34,6 +34,13 @@ export const timeline: TimelineItem[] = [
     icon: Briefcase
   },
   {
+    year: '2024',
+    title: 'Senior Full Stack Developer',
+    company: 'Quantum Tech Solutions',
+    description: 'Leading development of next-gen web applications with AI integration.',
+    icon: Briefcase
+  },
+  {
     year: '2022',
     title: 'Full Stack Developer',
     company: 'Digital Cosmos Inc',
@@ -53,5 +60,5 @@ export const timeline: TimelineItem[] = [
     company: 'Tech University',
     description: 'Graduated with honors, specializing in software engineering and AI.',
     icon: GraduationCap
-  }
+  },
 ]; 
