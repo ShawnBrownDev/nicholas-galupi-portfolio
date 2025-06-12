@@ -22,19 +22,19 @@ export const GRADIENTS = {
 } as const;
 
 export const LAYOUT = {
-  container: 'max-w-7xl mx-auto px-4 sm:px-6 lg:px-8',
+  container: 'max-w-5xl mx-auto px-4 sm:px-6 lg:px-8',
   grid: {
-    projects: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8',
+    projects: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4',
   },
 } as const;
 
 export const TYPOGRAPHY = {
   heading: {
-    primary: 'font-orbitron text-4xl md:text-5xl font-bold',
-    secondary: 'font-orbitron text-xl font-bold',
+    primary: 'font-orbitron text-3xl md:text-4xl font-bold',
+    secondary: 'font-orbitron text-lg font-bold',
   },
   body: {
-    primary: 'font-rajdhani text-xl text-white-400',
+    primary: 'font-rajdhani text-lg text-white-400',
     secondary: 'font-rajdhani text-gray-400',
   },
 } as const; 
